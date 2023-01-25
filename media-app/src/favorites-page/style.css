@@ -24,3 +24,14 @@
     padding: 0 16px;
 }
 
+/*clear floats*/
+.container::after, .row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.button{
+    border:none;
+    outline: 0;
+}
