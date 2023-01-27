@@ -21,9 +21,7 @@ app.get('/', (req, res) => {
   res.render('homePage')
 })
 
-app.get('/', (req, res) => {
-  res.send('hello world')
-})
+
 
 app.get('*', (req, res) => {
   res.status(404).send('<h1> 404 page <h1>')
