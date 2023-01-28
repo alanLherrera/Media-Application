@@ -3,19 +3,21 @@ import  Frame  from './Frame'
 
 const homePage = () => {
 return(
-    <Frame>
+   
       <html>
+        <Frame>
     <head>
        
         <title>Your Favorites</title>
         
-        <link rel="stylesheet" href="C:\Users\ro895\Media-Application\media-app\src\favorites-page\style.css"/>
+        
     </head>
+    </Frame> 
     <body>
       <div className="row">
         <div className="column">
             <div className="card">
-                <img src="https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_FMjpg_UX1000_.jpg" alt="Spider-Man: No Way Home" style="width: 15%"/>
+                <img src="https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_FMjpg_UX1000_.jpg" alt="Spider-Man: No Way Home" />
                 <div className="container">
                     <h2>Spider-Man:No Way Home</h2>
                     <p className="title">December 15, 2021</p>
@@ -28,7 +30,7 @@ return(
 
       <div className="column">
         <div className="card">
-            <img src="https://amc-theatres-res.cloudinary.com/v1672403850/amc-cdn/production/2/movies/66200/66246/Poster/Primary_BoxCover_HD_800_1200.jpg" alt="Puss in Boots: The Last Wish" style="width: 15%;"/>
+            <img src="https://amc-theatres-res.cloudinary.com/v1672403850/amc-cdn/production/2/movies/66200/66246/Poster/Primary_BoxCover_HD_800_1200.jpg" alt="Puss in Boots: The Last Wish" />
             <div className="container">
                 <h2>Puss in Boots: The Last Wish</h2>
                 <p className="title">December 7, 2022</p>
@@ -39,7 +41,7 @@ return(
       </div>
       <div className="column">
         <div className="card">
-            <img src="https://movieguide.b-cdn.net/wp-content/uploads/2012/08/Iron-Giant-Poster-768x1137.jpg" alt="The Iron Giant" style="width: 15%;"/>
+            <img src="https://movieguide.b-cdn.net/wp-content/uploads/2012/08/Iron-Giant-Poster-768x1137.jpg" alt="The Iron Giant" />
             <div className="container">
                 <h2>The Iron Giant</h2>
                 <p className="title">August 6, 1999</p>
@@ -51,11 +53,11 @@ return(
       </div>
 
         
-        
+      
     </body>
 </html>
-    
-    </Frame>
+ 
+   
 )
 }
 

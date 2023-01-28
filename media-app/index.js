@@ -2,6 +2,8 @@ require('dotenv').config()
 const express = require('express')
 const app = express()
 const React = require ('react')
+const { sequelize } = require('./models/index')
+
 //const methodOverride = require('method-override')
 
 
@@ -14,12 +16,17 @@ app.use(express.urlencoded({ extended: true }))
 //app.use(methodOverride('_method'))
 
 // Controllers
-app.use( '/View',require('./Controllers/media.js'))
+app.use( '/View',require('./Controllers'))
+
+
+//Routes
+
 
 
 app.get('/', (req, res) => {
   res.render('homePage')
 })
+
 
 
 
