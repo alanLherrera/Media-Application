@@ -27,6 +27,7 @@ function Frame ()  {
         </div>
     </nav>
 </body>
+<script href="./public/js"></script>
 </html>
 </main>
   )
