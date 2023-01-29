@@ -7,10 +7,10 @@ import { Fragment } from 'react'
 function New () {
   return(
   <Fragment>
-     <h3 className=" mt-5">Add Media Here</h3>
-    <form className=" d-flex mt-3">
+     <h3 className=" text-center font-Helvetica  mt-5">Add Media Here</h3>
+    <form className="  d-flex justify-content-center mt-3">
       <input type="text" className="form-edit"/>
-      <button className="btn btn-success" > Add </button>
+      <button className="btn text-light btn-dark" > Add </button>
     </form>
 
  </Fragment>
