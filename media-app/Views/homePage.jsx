@@ -19,7 +19,7 @@ return(
       <div className="row">
         <div className="column">
             <div className="card">
-                <img src="https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_FMjpg_UX1000_.jpg" alt="Spider-Man: No Way Home" />
+                <img src="https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_FMjpg_UX1000_.jpg" alt="Spider-Man: No Way Home" className="d-md-flex mx-auto"/>
                 <div className="container">
                     <h2>Spider-Man:No Way Home</h2>
                     <p className="title">December 15, 2021</p>
