@@ -1,5 +1,6 @@
 const React = require ('react')
 import  Frame  from './Frame'
+import New from './mediaPage/new'
 
 const homePage = () => {
 return(
@@ -13,6 +14,7 @@ return(
         
     </head>
     </Frame> 
+    <New></New>
     <body>
       <div className="row">
         <div className="column">
